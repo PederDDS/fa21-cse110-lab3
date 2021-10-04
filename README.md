@@ -1,0 +1,1 @@
+Link til Meeting Minutes website: https://pederdds.github.io/Lab2/
