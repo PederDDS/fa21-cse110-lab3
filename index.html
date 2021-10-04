@@ -6,16 +6,18 @@
     <meta name = "description" content = "Meeting Minutes for first CSE 110 meeting">
     <meta name = "keywords" content = "CSE 110, Ola, Software Engineering,  ">
     <link rel="icon" type="image/png" href="Smiling_Face_Emoji_large.png"/>
+    <meta charset="UTF-8">
 
 </head>
 
 <body>
     <header>
-        <h1>CSE 110 - First meeting brainstorm </h1>
-        <p>This site containes the Meeting Minutes for group X's meetings in CSE 110.</p>
+        <h1> CSE 110 - First meeting brainstorm 
+        </h1>
+        <p>This site containes the <b>Meeting Minutes</b> for group X's meetings in CSE 110.</p>
     </header>
     <hr>
-    <h3>Meeting Agenda: </h1> This meeting will cover
+    <h3>Meeting Agenda: </h3> This meeting will cover
     <h3>Date: </h3> 10-03-2021
     <h3>Attendance:</h3>
     <ul>
@@ -26,70 +28,159 @@
     </ul>
     Missing: Ali, Peder
     <h3>Agenda:</h3>
-    <p>As this is the first meeting for the <span>group</span>, the agenda is mostly to get to know each other. 
-        Should discuss:
+    As this is the first meeting for the <span>group</span>, the agenda is mostly to get to know each other.<br> Should discuss:
         <ul>
-            <li>What's the motivation your motivation for taking the course?</li>
-            <li>What previus experiances you have with programming?</li>
-            <li>What grade are you aiming for?</li>
+            <li>What's your <strong>motivation</strong> for taking the course?</li>
+            <li>What previus <i>experiances</i> you have with programming?</li>
+            <li>What grade are <em>you</em> aiming for?</li>
             <li>Other</li>
         </ul>
-    </p>
-    <hr>
+    
 
     <nav>
         <a href="otherPage.html">Meeting Minutes from last week</a> 
     </nav>
 
-    <h3>Comments, questions, other? Write them here:</h3>
+    <hr>
+    <section>
+        <h3>Who are you?</h3>
+        <p>
+            ...
+        </p>
+
+
+    </section>
+
+    <section>
+        <h3>What do you want to get out of this course?</h3>
+        <p>
+            ...
+        </p>
+
+
+    </section>
+
+    <section>
+        <h3> Snacks!</h3>
+        <p>
+            Should we have snacks at our meetings? Fex:
+        </p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Cockies</li>
+        </ul>
+        <p>Who should be responsable when? Suggestion</p>
+        <ol>
+            <li>Max</li>
+            <li>Ali</li>
+            <li>Lisa</li>
+            <li>Next</li>
+        </ol>
+
+
+    </section>
+
+    <section>
+        <h3>Comments, questions, other?</h3>
+        <p>
+            ...
+        </p>
+
+    </section>
 
 
 
-        
-      
+    <hr>
     
+    <h2>Media</h2>
 
-    
-
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ul>
-    <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
     <video width="180" height="280" controls>
         <source src="videoplayback.mp4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>
-      <audio controls>
+    </video>
+
+    <br><br>
+
+    <audio controls>
         <source src="Hello.mp3" type="audio/mpeg">
         Your browser does not support the audio tag.
-      </audio>
+    </audio>
 
-      <details>
-        <summary>Epcot Center</summary>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-      </details>
+    <br><br>
 
-      <form action="otherPage.html" method="get">
+    <img src="programming_meme.png" alt="Could not show image. Try different Browser."/>
+
+    <hr>
+
+    <button type="button"> What does this button do? </button>
+    
+    <details>
+        <summary>Riddle: The more you take, the more you leave behind. What am I?</summary>
+        <p>Footsteps.</p>
+    </details>
+    <br>
+    <label for="riddle_ratings">Rate the riddle:</label>
+
+        <select name="riddle_ratings" id="joke_ratings">
+            <option value="loved_it">Loved it!</option>
+            <option value="the_best">The best riddle I've heard</option>
+            <option value="good_one">Good one!</option>
+        </select>
+
+    <br><br>
+
+    <form action="otherPage.html" method="get">
         <fieldset>
+            <label for="title">Title:</label>
+            <input list="titles" name="title" id="title">
+            <datalist id="titles">
+              <option value="Professor">
+              <option value="Lord">
+              <option value="Doctor">
+            </datalist>
+        <br><br>
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        </fieldset>
+            <input type="text" id="fname" name="fname"><br><br>
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="radio" id="Checked" name="Rights" value="Checked">
-        <label for="Rights">I have read Privacy setings</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        <label for="date">Date:</label>
+            <input type="date"id="random date" value="2021-01-01">
+        </fieldset>
+        <fieldset>
+        <p>What are you:</p>
+
+        <div>
+            <input type="radio" id="fish" name="what_are_you" value="fish"
+                checked>
+            <label for="fish">Fish</label>
+        </div>
+            
+        <div>
+            <input type="radio" id="bird" name="what_are_you" value="bird">
+            <label for="bird">Bird</label>
+        </div>
+            
+        <div>
+            <input type="radio" id="something" name="what_are_you" value="something">
+            <label for="something">Something else</label>
+        </div>
+
+        </fieldset>
+        <label for="anything_else">Anything else you want to share?</label>
+            <br>
+
+            <textarea id="anything_else" name="anything_else" rows="3" cols="20"></textarea>
+        <br>
+        <input type="checkbox" name="Privacy" value="privacy">
+        <label for="privacy">I have read Privacy settings</label>
         
+        <br><br>
         <input type="submit" value="Submit">
-      </form>
+    </form>
     <footer>
         <p>Creator: Ola Normann</p>
-        <p> If you have any questions, please send them to: <a href="mailto:ola.normann@ucsd.edu">ola.normann@ucsd.edu</a></p>
+        <p> If you have any questions, please send them to: <a href="mailto:ola.normann@ucsd.edu">ola.normann@ucsd.edu</a> </p>
       </footer>
 </body>
 
