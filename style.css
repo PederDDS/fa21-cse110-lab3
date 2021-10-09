@@ -151,3 +151,9 @@ body {
     text-align: center;
     font-size: 10px;
   }
+
+  p[class] {
+    border-color:peru;
+  }
+
+  
