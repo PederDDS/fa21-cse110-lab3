@@ -1,0 +1,98 @@
+
+/* Welcome to this CSS-file*/
+
+body {
+    background-color: rgb(255,192,203);
+  }
+  
+  h1 {
+
+    color: #DDA;
+    margin-left: 5px;
+    text-decoration: overline;
+  }
+
+  h2 {
+
+    color: hsl(255, 30, 60);
+    text-align: center
+  }
+
+
+  h3 {
+
+    color: navy;
+    margin-left: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1,5em;
+  }
+
+  #img_resize {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  img {
+      width: 20vw;
+      height: auto;
+  }
+  #test1_li {
+    display:block;
+  }
+  #test2_li {
+    display:inline;
+  }
+
+  #test_long_marg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+
+  /*Testing short margin and border*/
+  #test_short_marg {
+
+    margin: 100px 100px 150px 80px;
+    background-color: lightblue;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: aqua;
+    border-style:dashed
+  }
+
+
+  #test_auto_marg {
+
+    margin: auto;
+    background-color: lightblue;
+  }
+
+  #test_auto_marge {
+
+    margin: auto;
+    background-color: lightblue;
+  }
+
+  #test_long_padding {
+
+    padding-left:1px;
+    padding-bottom:1px;
+    padding-right:1px;
+    padding-top:1px;
+    background-color: yellow;
+  }
+  #test_short_padding {
+      
+      padding: 1px 1px 1px 1px;
+      background-color: yellow;
+  }
+  div.min_width {
+    min-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
