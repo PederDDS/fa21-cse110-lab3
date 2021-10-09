@@ -1,14 +1,17 @@
 
 /* Welcome to this CSS-file*/
 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     background-color: rgb(255,192,203);
   }
   
   h1 {
-
+    
     color: #DDA;
-    margin-left: 5px;
     text-decoration: overline;
   }
 
@@ -25,10 +28,6 @@ body {
     margin-left: 5px;
   }
 
-  p {
-    font-size: 14px;
-    line-height: 1,5em;
-  }
 
   #img_resize {
     width: 1rem;
@@ -92,7 +91,63 @@ body {
       background-color: yellow;
   }
   div.min_width {
-    min-width: 500px;
+    min-width: 20cm;
     margin: auto;
     border: 3px solid #73AD21;
+  }
+
+
+  div.max_width {
+    max-width: 20cm;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+
+  #fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  #sosticky {
+    position:sticky;
+    top: 0;
+    left: 0;
+  }
+  a:link {
+    color: red;
+  }
+
+  div:hover {
+    background-color: blue;
+  }
+  div:active {
+    background-color: green;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row-reverses;
+
+    background-color:limegreen;
+  }
+  
+  .flex > div {
+    background-color:chocolate;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20px 60px auto 30px;
+    grid-gap: 10px;
+    background-color:indigo;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color:beige;
+    text-align: center;
+    font-size: 10px;
   }
