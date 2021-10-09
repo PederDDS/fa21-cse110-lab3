@@ -1,1 +1,1 @@
-Link til Meeting Minutes website: https://pederdds.github.io/Lab2/
+Link til Lab 3 website: https://pederdds.github.io/fa21-cse110-lab3/
